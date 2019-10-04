@@ -1,0 +1,524 @@
+body {
+    background-position: center;
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+	background-size: cover;
+    background-attachment: fixed;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 100%;
+    height: 100%;
+    text-transform: uppercase;
+}
+#section0{
+	font-family: Arial,Helvetica,sans-serif;
+    text-transform: uppercase;
+}
+#site-slogan {
+    font-family: "brandon-grotesque-i5","brandon-grotesque",sans-serif;
+    font-style: italic;
+    font-weight: 500;
+    letter-spacing: 3px;
+    color: #a2abb2;
+    text-align: center;
+    font-size: 15px;
+    padding-top: 15px;
+    
+}
+h1#name {
+    text-align: center;
+    padding: 30px 0 10px;
+    font-family: "brandon-grotesque-n7","brandon-grotesque",sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    letter-spacing: 10px;
+	color: #f7eee6 !important;
+}
+
+h1#name, div#site-name {
+    margin: 0;
+    font-size: 2em;
+    line-height: 1.3em;
+}
+#name-and-slogan {
+    position: relative;
+    padding-top: 100px;
+	
+}
+/*Navigation*/
+#navigation {
+    float: left;
+    width: 100%;
+    margin-left: 0;
+    margin-right: -100%;
+    padding: 0;
+    height: 2.3em;
+}
+#navigation ul {
+    list-style-type: none;
+    text-align: center;
+}
+#navigation {
+    font-size: 12px;
+    margin-top: 20px;
+    padding: 10px 0 32px;
+    background: none;
+    float: left;
+    width: 100%;
+}
+#navigation ul {
+    margin: 0 auto;
+    width: 100%;
+    padding: 0;
+}
+#navigation li a {
+    color: silver;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 16px;
+    letter-spacing: 2px;
+    display: block;
+    padding: 8px 18px;
+    border: 2px solid silver;
+    font-family: "brandon-grotesque-n5","brandon-grotesque",sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    transition: all 0.2s;
+}
+li {
+    font-family: "brandon-grotesque-n4","brandon-grotesque",sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+#navigation li {
+    display: inline-block;
+    margin: 0 8px;
+	outline-width: 10px;
+}
+#navigation ul {
+    margin: 0 auto;
+    width: 100%;
+    padding: 0;
+}
+#navigation.sticky-nav {
+    position: sticky;
+    z-index: 90;
+    background: rgba(0,0,0,0.8);
+    top: 0;
+    left: 0;
+    margin-top: 0;
+    -webkit-transition: background 0.6s;
+    -moz-transition: background 0.6s;
+    -o-transition: background 0.6s;
+    transition: background 0.6s;
+}
+#navigation li a:hover {
+	color: white;
+	border-color: white;
+}
+.main-img {
+    border-radius: 50%;
+    border: 2px solid white;
+    border-image-repeat: initial;
+	
+}
+.logo {
+    border-radius: 8%;
+    border: 1px solid white;
+    border-image-repeat: initial;
+	
+}
+
+/*------------------------------------------------------------------- ABOUT -------------------------------------------------------------------*/
+
+#section1{
+	font-family: Arial,Helvetica,sans-serif;
+    text-transform: uppercase;
+	background-color: #15191d;
+	margin-top: 300px;
+}
+h1#site-name {
+    text-align: center;
+    padding: 30px 0 10px;
+    font-family: "brandon-grotesque-n7","brandon-grotesque",sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    letter-spacing: 10px;
+
+}
+h1#site-name, div#site-name {
+    margin: 0;
+    font-size: 2em;
+    line-height: 1.3em;
+}
+
+#site-slogan {
+    font-family: "brandon-grotesque-i5","brandon-grotesque",sans-serif;
+    font-style: italic;
+    font-weight: 500;
+    letter-spacing: 3px;
+    color: #a2abb2;
+    text-align: center;
+    font-size: 15px;
+    padding-top: 15px;
+}
+#node-1{
+    width: 880px;
+    margin: 0 auto;
+    padding: 60px 40px;
+}
+h2.title {
+    padding-bottom: 15px;
+    color: #fff;
+    letter-spacing: 5px;
+    text-align: center;
+	font-family: "brandon-grotesque-n5","brandon-grotesque",sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 1.3em;
+    margin-top: 0.667em;
+    margin-bottom: 60px;
+	display: block;
+}
+
+#node-1 .content .left-text {
+    margin-right: 40px;
+}
+#node-1 .content {
+    text-transform: none;
+    font-size: 18px;
+    line-height: 26px;
+    color: #6c6d6e;
+	font-family: "brandon-grotesque-n4","brandon-grotesque",sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+p {
+    text-align: justify;
+	margin: 0 0 1em 0 !important;
+	
+}
+p, ul, li, label {
+    font-family: "brandon-grotesque-n4","brandon-grotesque",sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+#node-1 .content div {
+    width: 420px;
+    float: left;
+    margin-bottom: 30px;
+}
+
+ul.social {
+    text-align: center;
+    list-style: none;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-left: auto;
+	margin-bottom: 0px;
+    padding: 40px 0;
+    padding-top: 40px;
+    padding-right: 0px;
+    padding-bottom: 40px;
+    padding-left: 0px;
+    clear: left;
+}
+
+
+a.res {
+	margin-top: 10px;
+    color: silver;
+    border: 2px solid;
+    text-decoration: none;
+    display: block;
+    overflow: hidden;
+    width: 90px;
+    height: 30px;
+	text-align:center;
+	padding-top:10px;
+	margin-left: 800px;
+	
+}
+a.res:hover{
+	color: white;
+}
+
+#sslide.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+#sslide.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Caption text */
+#sslide. text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* The dots/bullets/indicators */
+#sslide.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+/* Fading animation */
+#sslide.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+#sslide @-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+#sslide @keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+#sslide @media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+
+/* SKILLS */
+.w3-teal, .w3-hover-teal:hover {
+    color: #fff!important;
+    background-color: #5e5e5e!important;
+}
+.w3-light-grey, .w3-hover-light-grey:hover, .w3-light-gray, .w3-hover-light-gray:hover {
+    background-color: #f1f1f1!important;
+}
+.skills {
+	
+	padding-top:40px;
+    color: #ffffff
+}
+.w3-center {
+    text-align: center!important;
+}
+.w3-round-xlarge {
+    border-radius: 16px;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+.smalltext{
+	padding-top: 11px;
+	font-size: 11px;
+}
+
+/*-------------------------------------------------------------------PORTFOLIO-------------------------------------------------------------------*/
+
+#section2 {
+	font-family: Arial,Helvetica,sans-serif;
+    font-size: 100%;
+    height: 100%;
+    text-transform: uppercase;
+	background-color: rgb(222, 230, 236);
+}
+#node-2{
+    width: 880px;
+    margin: 0 auto;
+    padding: 60px 40px;
+}
+#site-slogan {
+    font-family: "brandon-grotesque-i5","brandon-grotesque",sans-serif;
+    font-style: italic;
+    font-weight: 500;
+    letter-spacing: 3px;
+    color: #a2abb2;
+    text-align: center;
+    font-size: 15px;
+    padding-top: 15px;
+    background: url(top-line.png) center top no-repeat;
+}
+.region-content-top {
+    width: 960px;
+    margin: 0 auto;
+    padding: 30px 0 80px;
+}
+.view-videos {
+    height: 595px;
+    margin-bottom: 40px;
+}
+.view-videos .views-row {
+    width: 260px;
+    float: left;
+    margin: 0 10px 0 40px;
+    position: relative;
+    height: 265px;
+}
+
+.view-videos p {
+    color: #5e5e5e;
+    font-family: "brandon-grotesque-i4","brandon-grotesque",sans-serif;
+    font-style: italic;
+    font-weight: 400;
+    margin-top: 1;
+    width: 260px;
+    padding-bottom: 5px;
+    padding-top: 45px;
+    text-transform: none;
+    font-size: 14px;
+}
+.view-videos h2.minititle {
+    font-family: "brandon-grotesque-n4","brandon-grotesque",sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    color: #222;
+    font-weight: normal;
+    text-decoration: none;
+    position: absolute;
+    top: 159px;
+    letter-spacing: 0;
+    margin-bottom: 1em;
+    margin-top: 0;
+}
+.field-type-emvideo {
+    width: 250px;
+    height: 130px;
+}
+.field-type-emvideo {
+    width: 250px;
+    height: 130px;
+}
+.node-type-page h2.title, .node-type-webform h2.title {
+    padding-bottom: 15px;
+    color: #fff;
+    letter-spacing: 5px;
+    text-align: center;
+    background: url(bottom-line.png) center bottom no-repeat;
+    padding-bottom: 30px;
+}
+.form-item label {
+    display: block;
+    font-weight: bold;
+}
+.form-item label {
+    display: block;
+    font-weight: bold;
+}
+p, ul, li, label {
+    font-family: "brandon-grotesque-n4","brandon-grotesque",sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+user agent stylesheet
+label {
+    cursor: default;
+}
+#node-7 input, #node-7 textarea {
+    background: #555;
+    width: 410px;
+    height: 20px;
+    float: left;
+    color: #111;
+    padding: 8px;
+    margin: 0 0 15px;
+    outline: none;
+    font-size: 16px;
+    font-family: "brandon-grotesque-n4","brandon-grotesque",sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    border: 0;
+}
+/*------------------------------------------------------------------- BLOG -------------------------------------------------------------------*/
+#section4{
+	width: 880px;
+    margin: 0 auto;
+    padding: 120px 40px;
+	font-family: Arial,Helvetica,sans-serif;
+    font-size: 100%;
+    text-transform: uppercase;
+	color: #5e5e5e;
+	background-color:none	;
+}
+/*------------------------------------------------------------------- CONTACT -------------------------------------------------------------------*/
+#section3 {
+	font-family: Arial,Helvetica,sans-serif;
+    font-size: 100%;
+    height: 872px;
+    text-transform: uppercase;
+	color: #5e5e5e;
+	background-color: rgb(10, 12, 14);
+	
+}
+#node-3 {
+    width: 880px;
+    margin: 0 auto;
+    padding: 120px 40px;
+}
+#site-slogan {
+    font-family: "brandon-grotesque-i5","brandon-grotesque",sans-serif;
+    font-style: italic;
+    font-weight: 500;
+    letter-spacing: 3px;
+    color: #a2abb2;
+    text-align: center;
+    font-size: 15px;
+    padding-top: 15px;
+    background: url(top-line.png) center top no-repeat;
+}
+h2.title {
+    padding-bottom: 15px;
+    color: #fff;
+    letter-spacing: 5px;
+    text-align: center;
+	font-family: "brandon-grotesque-n5","brandon-grotesque",sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 1.3em;
+	padding-top: 50px;
+    margin-bottom: 60px;
+	display: block;
+	margin-top: 0px;
+}
+.par{
+    padding-bottom: 15px;
+    color: #fff;
+    letter-spacing: 5px;
+    text-align: center;
+	font-family: "brandon-grotesque-n5","brandon-grotesque",sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 1em;
+    margin-top: 0.5em;
+    margin-bottom: 30px;
+	display: block;
+}
+
+/*------------------------------------------------------------------- FOOTER -------------------------------------------------------------------*/
+#footer-text {
+    color: #ccc;
+    padding: 20px 0 30px 50px;
+    font-family: "brandon-grotesque-n4","brandon-grotesque",sans-serif;
+    font-style: normal;
+    letter-spacing: 2px;
+    font-weight: 400;
+}
