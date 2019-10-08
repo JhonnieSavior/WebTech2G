@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<head>
+<title>University of the Cordilleras</title>
+
+<!-- Bootstrap -->
+<link rel="stylesheet" type="text/css"  href="uc/uc style.css">
+<link rel="stylesheet" type="text/css" href="fonts/font-awesome/css/font-awesome.css">
+
+<!-- Stylesheet
+    ================================================== -->
+<link rel="stylesheet" type="text/css"  href="uc/style.css">
+<link rel="stylesheet" type="text/css" href="uc/prettyPhoto.css">
+<script type="text/javascript" src="js/modernizr.custom.js"></script>
+<style>
+	.leftcontainer  {
+    max-width: 350px;
+    float: left;
+	padding: 5px;
+    margin-right: 10px;
+    background-color: #ffffff;
+    border: 0px;
+}
+.rightcontainer  {
+    max-width: 350px;
+    float: right;
+	padding: 5px;
+    margin-left: 10px;
+    background-color: #ffffff;
+    border: 0px;
+}
+.pSchool{
+    text-transform: initial;
+	line-height: 1.6em;
+    text-align: justify;
+}
+.vm{
+    text-transform: initial;
+	line-height: 1.6em;
+    text-align: justify;
+}
+#school{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#hymn{
+	text-align: center;
+}
+#composer{
+	text-align: center;
+}
+#lyrics{
+	text-align: center;
+	text-transform: initial;
+    line-height: 1.6em;
+}
+.parallax { 
+    /* The image used */
+    background-image: url("Pictures/forest.jpg");
+
+    /* Set a specific height */
+    height: 200px; 
+	width:100%;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Slideshow container */
+.slideshow-containers {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlidess {
+    display: none;
+}
+
+/* Caption text */
+.texts {
+  padding: 8px 12px;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+#stexts{
+	color: #f2f2f2;
+	font-size: 2.5em;
+	font-weight: bold;
+	font-weight: emphasis;
+}
+
+
+/* Fading animation */
+.fades {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fades {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fades{
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+</style>
+</head>
+
+<body >
+<!-- Navigation -->
+<nav id="menu" class="navbar navbar-default navbar-fixed-top">
+  <div class="container"> 
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <!-- CHANGE INTO MY OWN LOGO -->
+	  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+      <a class="navbar-brand page-scroll" href="Project.html#home"><img height="20" width="20" src="Pictures/logo2.jpg"  alt="Logo" style= "display: inline-block;" > Jhonnie Palaganas</a> </div>
+    
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#header" class="page-scroll">Home</a></li>
+		<li><a href="#about" class="page-scroll">About UC</a></li>
+        <li><a href="#services" class="page-scroll">CITCS</a></li>    
+        <li><a href="#portfolio" class="page-scroll">Facilitites</a></li>
+        <li><a href="#contact" class="page-scroll">Contact</a></li>
+      </ul>
+    </div>
+    <!-- /.navbar-collapse --> 
+  </div>
+  <!-- /.container-fluid --> 
+</nav>
+
+<!-- Header -->
+<header id="header">
+  <div class="intro text-center">
+    <div class="overlay">
+      <div class="container">
+        <div class="row">
+          <div class="intro-text">
+            <h1>Welcome to<br>
+			</h1>
+			<img height="200" width="250" title="Benjamin Salvosa" src="Pictures/Salvosa.png"  alt="Logo" style= "display: inline-block;" >
+			<img height="200" width="650" src="Pictures/UC_Official_Logo.png"  alt="Logo" style= "display: inline-block;">
+			
+			<p>YES UCan !</p>
+            <a href="#about" class="btn btn-default btn-lg page-scroll">Learn More</a> </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- About Section -->
+<div id="about">
+  <div class="container">
+    <div class="col-md-8 col-md-offset-2 section-title text-center">
+      <h2>About UC</h2>
+		<img id = "school" src="Pictures/school.jpg"  alt="University of the Cordilleras">
+		
+		<h3 class= "SchoolTitle">The History of the University of the Cordilleras</h3>
+		<p class= "pSchool" > Baguio Colleges, as the University of the Cordilleras was earlier known, pioneered in tertiary education in the mountain highlands of the Cordillera region amidst devastation in and around Baguio City after the Second World War.</p>
+		<p class= "pSchool" > Despite a pessimistic outlook and the bleak prospects pervading the climate of any undertaking at that time, Atty. Benjamin R. Salvosa envisioned Baguio City as a university town. With such vision, he undauntedly pursued a noble mission by founding a college.</p>
+		<img class = "leftcontainer pic" src="Pictures/bc.jpg"  alt="University of the Cordilleras">
+		<p class= "pSchool" > It was on June 19, 1946, coinciding with the birth anniversary of Dr. Jose P. Rizal, that a historic event unfolded. Baguio Colleges was established initially offering courses in teacher training and liberal arts, with the first batch of enrollees consisting of 156 students. Classes were first held in rented spaces at the Antipolo building, and later, at the Lopez and Lamping buildings along Session Road, the city's main thoroughfare.</p>
+		<p class= "pSchool" > 1966 became a turning point for Baguio Colleges as it was converted into an educational foundation. Since then, it has blazed new trails and has become more responsive to the needs of the time.</p>
+		<p class= "pSchool" > The founder, Atty. Benjamin R. Salvosa sat as the Chairman of the Board of Trustees and held the reins of the presidency up to the early part of 1994.</p>
+		<p class= "pSchool" > Through the years, the University of the Cordilleras has grown bigger through the offering of additional courses and increasing student enrollment. It continues to grow even better with time, as evidenced by exemplary performance in various fields of discipline, with its graduates shining in national licensure examinations, and its alumni doing well in private employment, in the practice of their trade and profession, and in public service.</p>
+		<p class= "pSchool" > Today, the University of the Cordilleras caters to more than 15,000 students coming from the Cordillera Administrative Region (CAR), Regions I and II, as well as from neighboring provinces in Luzon. Course offerings range from graduate studies, law, arts and sciences, nursing, engineering and architecture, commerce and secretarial, teacher education, computer science, technical courses, elementary and high school.</p>
+		<img class = "rightcontainer pic" src="Pictures/ucnow.gif"  alt="University of the Cordilleras">
+		<p class= "pSchool" > The University's College of Law is rated among the top law schools in the country, having graduated bar topnotchers as of year 2007. The Colleges of Engineering, Criminology, Information and Computer Science, and Teacher Education have gained recognition as among the top colleges in the region and the country. The College of Nursing, although newly-opened, has already shown an optimistic outlook with its exceptional performance in its first ever nursing board examinations.</p>
+		<p class= "pSchool" > The future looks bright for the University of the Cordilleras, and we're glad to be blessed to serve these mountain highlands of the Philippines. Mabuhay!</p>
+		
+		<div class = "col-xs-12 col-md-6">
+			<img src="Pictures/University_of_the_Cordilleras_crest.png" class="img-responsive" alt="University of the Cordilleras crest">
+		</div>
+		<div class = "col-xs-12 col-md-6">
+			<div class = "about-text">
+				<h4>The Foundation Seal</h4>
+				<p>The rice terraces, often called the eighth wonder of the world, is a symbol of the genius of our race. They show the industry, patience and skill of the early Filipinos in this part of the highlands where UC is situated.</p>
+
+				<p>The leaves of the pine tree, an evergreen, denote youth and its fresh and courageous outlook.</p>
+
+				<p>The torch, the classical symbol of learning, means that while UC is dedicated to the cultivation of a distinct Filipino culture, it has profited from the teachings of other cultures.</p>
+
+				<p>The shield implies that education, the birthright of everyone, is a protection against the inadequacy, intolerance, and slavery of the mind.</p>
+			</div>
+		</div>
+		<h3 id = "hymn">The UC Hymn</h3>
+		<p id = "composer"><i>Composer: Dr. Rodolfo Cornejo</i></p>
+		<p id= "lyrics">
+			Hold high the torch;<br>
+			Let its blaze reach all corners,<br>
+			Throughout the world<br>
+			to lighten the course of darkness.<br>
+			Keep wise and well not forgetting fidelity,<br>
+			To our Alma Mater, wherever we may be<br>
+			Keep our hearts together with glowing<br>
+			love and loyalty.<br>
+			Hold tight the shield,<br>
+			And defend our dear country<br>
+			We must not yield<br>
+			To threats made upon our safety.<br>
+			This is the pledge<br>
+			We shall keep till our dying day.<br>
+			To our Alma Mater, wherever we may be<br>
+			Keep our hearts together<br>
+			With glowing love and loyalty.<br>
+		</p>
+			<center><audio controls>
+				<source src="audio/uc hymn.mp3" type="audio/mpeg">
+			Your browser does not support the audio element.
+			</audio></center>
+		<h3 id = "hymn">UC-BCF March</h3>
+		<p id = "composer"><i>Composer: Dr. Rodolfo Cornejo</i></p>
+		<p id= "lyrics">
+			Up the zigzag road, you will find your way<br>
+			Leading to the gate of learning,<br>
+			Give the place some thought, you can't go astray<br>
+			There is where you'll hear them singing<br>
+			*** Neath the tall and stalwart pine trees<br>
+			Our Alma Mater proudly stands;<br>
+			Over hill and over valleys with full command upon the strand<br>
+			There is where my mind is nourished<br>
+			With the wisdom that I need<br>
+			There is where I reap some knowledge<br>
+			My heart to strengthen my creed.<br>
+			***<br>
+			Hear the murmur of those pine trees<br>
+			Feel the softness of mountain breeze<br>
+			If you have some ambition<br>
+			The right inspiration, you'll find in the Baguio Colleges<br>
+			(Repeat ***)<br>
+		</p>
+		
+		<h3 class= "SchoolTitle">VISION</h3>
+		<p class = "vm">The University of the Cordilleras Libraries envisions itself as an innovative resource center that facilitates the acquisition of knowledge and lifelong learning in the community.</p>
+
+	  
+		
+		<h3 class= "SchoolTitle">MISSION</h3>
+		<p class = "vm">The UC Libraries mission is to support the teaching, learning, research and community extension programs of the university through provision of comprehensive information resources and customer-focused services.</p>
+		
+        
+	</div>
+  </div>
+</div>
+
+<div class="parallax">
+	<!-- Slideshow container -->
+	<div class="slideshow-containers">
+
+		<!-- Full-width images with number and caption text -->
+		<div class="mySlidess fades">
+			<div class="texts">
+				<h4 id= "stexts"> "Education is not a privilage;<br>
+				but a basic human right."<br>
+				-Atty. Benjamin R. Salvosa</h4>
+			</div>
+		</div>
+
+		<div class="mySlidess fades">
+			<div class="texts">
+				<h4 id= "stexts"> "UC  A Platform for Social &amp; Personal Transformation."<br>
+				-Atty. Benjamin R. Salvosa</h4>
+			</div>
+		</div>
+
+		<div class="mySlidess fades">
+			<div class="texts">
+				<h4 id= "stexts"> "Yes UCan "<br>
+				-Atty. Benjamin R. Salvosa</h4>
+			</div>
+		</div>
+
+	</div>
+	<br>
+
+	<!-- The dots/circles -->
+	<div style="text-align:center">
+		<span class="dots" onclick="currentSlide(1)"></span> 
+		<span class="dots" onclick="currentSlide(2)"></span> 
+		<span class="dots" onclick="currentSlide(3)"></span> 
+	</div>
+	<script>
+	var slideIndex = 0;
+	showSlides();
+
+	function showSlides() {
+		var i;
+		var slides = document.getElementsByClassName("mySlidess");
+		var dots = document.getElementsByClassName("dots");
+		for (i = 0; i < slides.length; i++) {
+		   slides[i].style.display = "none";  
+		}
+		slideIndex++;
+		if (slideIndex > slides.length) {slideIndex = 1}    
+		for (i = 1; i < dots.length; i++) {
+			dots[i].className = dots[i].className.replace(" actives", "");
+		}
+		slides[slideIndex-1].style.display = "block";  
+		dots[slideIndex-1].className += " actives";
+		setTimeout(showSlides, 3000); // Change image every 2 seconds
+	}
+	</script>
+</div>
+<!-- Services Section -->
+<div id="services" class="text-center">
+  <div class="container">
+    <div class="col-md-8 col-md-offset-2 section-title">
+      <h2>CITCS</h2>
+      <h4>(College of Computer Science and Information &amp; Technology)</h4>
+	  <p>In 1986, the University of the Cordilleras, then known as the Baguio Colleges Foundation, became the first institution in Baguio City to offer a four-year course in Computer Science. Under the umbrella of the Arts and Sciences, this new division started with barely 100 students, 4 faculty members, and one course offering: Bachelor of Science in Information and Computer Science.</p>
+	  <p>With its transition from a division to a separate college in June 1995, the College grew to more than 1,200 students and 34 faculty members.</p>
+	  <p>In keeping with the philosophy of the University of the Cordilleras, the College of Information Technology and Computer Science has recognized its responsibility to respond to the changing needs of society, particularly in the field of Information Technology.</p>
+	  <p>The College is aware that today's technology revolves around the indispensability of the computer in the fields of computations, database systems, web & graphics, networking & security, mobile technology and digital arts.</p>
+	  <p>The present courses offered by the College are geared towards bolstering computing competencies, a vital role it plays in the community.</p>
+	  <p>In 2007, CHED Conferred the highest academic status to the college as "Center of Excellence". UC holds the distinction of being among the nation's top nine(9) in IT education.</p>
+    </div>
+    <div class="row">
+      <div class="col-xs-6 col-md-3"> <i class="fa fa-desktop"></i>
+        <h4>IT major in Web Developer</h4>
+        <p>Computer Programming and HTML.</p>
+      </div>
+      <div class="col-xs-6 col-md-3"> <i class="fa fa-gears"></i>
+        <h4>IT major in Network &amp; Security </h4>
+        <p>Computer Programming and HardWares of a Computer</p>
+      </div>
+      <div class="col-xs-6 col-md-3"> <i class="fa fa-rocket"></i>
+        <h4>CS major in Digital Arts</h4>
+        <p>Game Developer and Photo Editings.</p>
+      </div>
+      <div class="col-xs-6 col-md-3"> <i class="fa fa-line-chart"></i>
+        <h4>ERP </h4>
+		<h4>&amp; CS major in Data Analytics</h4>
+        <p>Marketing and Business Mangement.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Portfolio Section -->
+<div id="portfolio">
+  <div class="container">
+    <div class="col-md-8 col-md-offset-2 section-title text-center">
+      <h2>Our Facilities</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam. Sed commodo nibh ante facilisis bibendum dolor apibus lornare diam commodo nibh.</p>
+    </div>
+    <div class="categories">
+      <ul class="cat">
+        <li>
+          <ol class="type">
+            <li><a href="#" data-filter="*" class="active">All</a></li>
+            <li><a href="#" data-filter=".web">PE Pupose</a></li>
+            <li><a href="#" data-filter=".app">Computer Lab</a></li>
+            <li><a href="#" data-filter=".branding">Libraries</a></li>
+			<li><a href="#" data-filter=".branding">Performing Purpose</a></li>
+          </ol>
+        </li>
+      </ul>
+      <div class="clearfix"></div>
+    </div>
+    <div class="row">
+      <div class="portfolio-items">
+        <div class="col-sm-6 col-md-3 col-lg-3 web">
+          <div class="portfolio-item">
+            <div class="hover-bg"> <a href="img/portfolio/01-large.jpg" title="Project description" rel="prettyPhoto">
+              <div class="hover-text">
+                <h4>Project Title</h4>
+                <small>Web Design</small> </div>
+              <img src="img/portfolio/01-small.jpg" class="img-responsive" alt="Project Title"> </a> </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-3 col-lg-3 app">
+          <div class="portfolio-item">
+            <div class="hover-bg"> <a href="img/portfolio/02-large.jpg" title="Project description" rel="prettyPhoto">
+              <div class="hover-text">
+                <h4>Project Title</h4>
+                <small>App Development</small> </div>
+              <img src="img/portfolio/02-small.jpg" class="img-responsive" alt="Project Title"> </a> </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-3 col-lg-3 web">
+          <div class="portfolio-item">
+            <div class="hover-bg"> <a href="img/portfolio/03-large.jpg" title="Project description" rel="prettyPhoto">
+              <div class="hover-text">
+                <h4>Project Title</h4>
+                <small>Web Design</small> </div>
+              <img src="img/portfolio/03-small.jpg" class="img-responsive" alt="Project Title"> </a> </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-3 col-lg-3 web">
+          <div class="portfolio-item">
+            <div class="hover-bg"> <a href="img/portfolio/04-large.jpg" title="Project description" rel="prettyPhoto">
+              <div class="hover-text">
+                <h4>Project Title</h4>
+                <small>Web Design</small> </div>
+              <img src="img/portfolio/04-small.jpg" class="img-responsive" alt="Project Title"> </a> </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-3 col-lg-3 app">
+          <div class="portfolio-item">
+            <div class="hover-bg"> <a href="img/portfolio/05-large.jpg" title="Project description" rel="prettyPhoto">
+              <div class="hover-text">
+                <h4>Project Title</h4>
+                <small>App Development</small> </div>
+              <img src="img/portfolio/05-small.jpg" class="img-responsive" alt="Project Title"> </a> </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-3 col-lg-3 branding">
+          <div class="portfolio-item">
+            <div class="hover-bg"> <a href="img/portfolio/06-large.jpg" title="Project description" rel="prettyPhoto">
+              <div class="hover-text">
+                <h4>Project Title</h4>
+                <small>Branding</small> </div>
+              <img src="img/portfolio/06-small.jpg" class="img-responsive" alt="Project Title"> </a> </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-3 col-lg-3 branding app">
+          <div class="portfolio-item">
+            <div class="hover-bg"> <a href="img/portfolio/07-large.jpg" title="Project description" rel="prettyPhoto">
+              <div class="hover-text">
+                <h4>Project Title</h4>
+                <small>App Development, Branding</small> </div>
+              <img src="img/portfolio/07-small.jpg" class="img-responsive" alt="Project Title"> </a> </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-3 col-lg-3 web">
+          <div class="portfolio-item">
+            <div class="hover-bg"> <a href="img/portfolio/08-large.jpg" title="Project description" rel="prettyPhoto">
+              <div class="hover-text">
+                <h4>Project Title</h4>
+                <small>Web Design</small> </div>
+              <img src="img/portfolio/08-small.jpg" class="img-responsive" alt="Project Title"> </a> </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Contact Section -->
+<div id="contact" class="text-center">
+  <div class="overlay">
+    <div class="container">
+      <div class="col-md-8 col-md-offset-2 section-title">
+        <h2>Get In Touch</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam. Sed commodo nibh ante facilisis bibendum dolor apibus lornare diam commodo nibh.</p>
+      </div>
+      <div class="col-md-8 col-md-offset-2">
+        <h3>Contact Numbers:</h3>
+		<p>Main Campus<br>
+		(Private Exchange connecting all depts.) - (074) 442-3316<br>
+		Or call - (074) 442-8220+loc no.<br>
+		Fax No - (074) 442-6268</p>
+		<p>Legarda Campus<br>
+		Call - (074) 446-6802<br>
+		Or call - (074) 448-0256<br>
+		Or call - (074) 448-0311<br>
+		Fax No - (074) 442-6268</p>
+		<p>Grade School / High School<br>
+		Principal's Office - (074) 445-5784</p>
+		
+		<h3>Where to find UC?</h3>
+		<div class="mapouter"><div class="gmap_canvas"><iframe width="700" height="364" id="gmap_canvas" src="https://maps.google.com/maps?q=university%20of%20cordilleras&t=&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.pureblack.de">pureblack.de</a></div><style>.mapouter{text-align:right;height:364px;width:700px;}.gmap_canvas {overflow:hidden;background:none!important;height:364px;width:700px;}</style></div>
+		<div class="social">
+          <ul>
+            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+            <li><a href="#"><i class="fa fa-github"></i></a></li>
+            <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="footer">
+  <div class="container text-center">
+    <div class="fnav">
+      <p>Copyright &copy; 2018 Jhonnie Palaganas.</p>
+    </div>
+  </div>
+</div>
+<script type="text/javascript" src="js/jquery.1.11.1.js"></script> 
+<script type="text/javascript" src="js/bootstrap.js"></script> 
+<script type="text/javascript" src="js/SmoothScroll.js"></script> 
+<script type="text/javascript" src="js/jquery.prettyPhoto.js"></script> 
+<script type="text/javascript" src="js/jquery.isotope.js"></script> 
+<script type="text/javascript" src="js/jqBootstrapValidation.js"></script> 
+<script type="text/javascript" src="js/contact_me.js"></script> 
+<script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
