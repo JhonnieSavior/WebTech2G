@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Jhonnie Palaganas || ANIMATOR, PROGRAMMER & WEB DESIGNER</title>
+<link rel="stylesheet" href="styles.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+<body>
+<div id= "home">
+	<div id="name-and-slogan">
+			<center><img class="img-with-animation main-img animated-in" 
+			height="250" width="250" src="Pictures/me1.jpg"  
+			alt="Jhonnie Palaganas" style="opacity: 1;"></center>
+			<h1 id="name">
+				<span>Jhonnie Palaganas</span>
+			</h1>             
+		<div id="site-slogan">Animator, Programmer &amp; Web Designer</div> 
+	</div>
+</div>
+<div id="navigation">
+	<ul>
+		<li><a href="#section1">ABOUT</a></li>
+		<li><a href="#section2">PORTFOLIO</a></li>
+		<li><a href="#section3">CONTACT</a></li>
+		<li><a href="#home"><img class="logo" height="30" width="40" title="Home" src="Pictures/Logo.png"  alt="Logo" style="opacity: 1;"></a></li>
+		<li><a href="./School.html">SCHOOL</a></li>
+		<li><a href="./Blog.html">BLOG</a></li>
+		<li><a href="./Resume1.pdf">RESUME </a></li>
+	</ul>
+</div>
+			<script>
+			window.onscroll = function() {myFunction()};
+
+			var navbar = document.getElementById("navigation");
+			var sticky = navbar.offsetTop;
+
+			function myFunction() {
+			  if (window.pageYOffset >= sticky) {
+				navbar.classList.add("sticky-nav")
+			  } else {
+				navbar.classList.remove("sticky-nav");
+			  }
+			}
+			</script>
+
+<div id = "section1">
+	<div id="node-1" >
+		<h2 class="title">About Me</h2>
+		<div class="content">
+			<div class="left-text" style ="height: 400px;">
+					<div id="sslide" class="slideshow-container">
+						<div class="mySlides fade" >
+							<img src="Pictures/jhonnie1.jpg" style="width:60%; padding-left:110px; padding-top: 10px;">
+							<div class="text" style="text-align: center;">Jhonnie Palaganas</div>
+						</div>
+						<div class="mySlides fade">
+							<img src="Pictures/giphy.gif" style="width:100%">
+							<div class="text" style="text-align: center; padding-top: 10px;">Programmer</div>
+						</div>
+						<div class="mySlides fade">
+							<img src="Pictures/web design.gif" style="width:100%">
+							<div class="text" style="text-align: center; padding-top: 10px;">Web Designer</div>
+						</div>
+						<div class="mySlides fade">
+							<img src="Pictures/Animator.jpg" style="width:100%">
+							<div class="text" style="text-align: center; padding-top: 10px;">Animator</div>
+						</div>
+						<div class="mySlides fade">
+							<img src="Pictures/friends1.gif" style="width:100%">
+							<div class="text" style="text-align: center; padding-top: 10px;">Friends</div>
+						</div>
+						<div class="mySlides fade">
+							<img src="Pictures/friends2.gif" style="width:100%">
+							<div class="text" style="text-align: center; padding-top: 10px;">Goals</div>
+						</div>
+						<div class="mySlides fade">
+							<img src="Pictures/family.jpg" style="width:100%">
+							<div class="text" style="text-align: center; padding-top: 10px;">Family</div>
+						</div>
+					</div>
+					<br>
+					<div style="text-align:center">
+					  <span class="dot"></span> 
+					  <span class="dot"></span> 
+					  <span class="dot"></span> 
+					  <span class="dot"></span> 
+					  <span class="dot"></span>
+					  <span class="dot"></span> 
+					  <span class="dot"></span> 
+					</div>
+
+					<script>
+					var slideIndex = 0;
+					showSlides();
+
+					function showSlides() {
+						var i;
+						var slides = document.getElementsByClassName("mySlides");
+						var dots = document.getElementsByClassName("dot");
+						for (i = 0; i < slides.length; i++) {
+						   slides[i].style.display = "none";  
+						}
+						slideIndex++;
+						if (slideIndex > slides.length) {slideIndex = 1}    
+						for (i = 0; i < dots.length; i++) {
+							dots[i].className = dots[i].className.replace(" active", "");
+						}
+						slides[slideIndex-1].style.display = "block";  
+						dots[slideIndex-1].className += " active";
+						setTimeout(showSlides, 2000); // Change image every 2 seconds
+					}
+					</script>
+			</div>
+			<div class="right-text">
+				<p>I'm a animator, programmer and web designer based in Baguio. I improved my capabilities in drawing and programming starting at year 2016 at the <i>University of the Cordilleras</i>. In 2018 I am a competent person passing in <i>NC II Animation</i> assessment. I am knowledegeable in java making our own programs like hospital room reservation, parking program, games and many more. </p>
+				<p>I have a little knowledge in photoshop in editing and making logo. I am also have experience in working in a loptop shop where we fix, we clean and sell laptops and other components. I have learned lot of things about computer, reformating and fixing. </p>
+			</div>
+			
+			<ul class="social">
+				<li class="facebook"><a href="http://www.fb.com/" title="Facebook">Facebook</a></li>
+				<li class="instagram"><a href="http://www.ig.com/" title="Instagram">Instagram</a></li>
+				<li class="youtube"><a href="http://www.youtube.com/" title="YouTube">YouTube</a></li>
+				<li class="twitter"><a href="http://twitter.com/" title="Twitter">Twitter</a></li>
+			</ul>
+		</div>
+		<div class = "skills">
+			<p><b>Skills</b></p>
+			<p class = "smalltext" >Java</p>
+			<div class="light-grey round-xlarge small">
+				<div class="container center round-xlarge grey" style="width:90%">90%</div>
+			</div>
+			<p class = "smalltext" >Html</p>
+			<div class="light-grey round-xlarge small">
+				<div class="container center round-xlarge grey" style="width:90%">90%</div>
+			</div>
+			<p class = "smalltext" >Animation</p>
+			<div class="light-grey round-xlarge small">
+				<div class="container center round-xlarge grey" style="width:60%">60%</div>
+			</div>
+			<p class = "smalltext" >Traditional Drawing</p>
+			<div class="light-grey round-xlarge small">
+				<div class="container center round-xlarge grey" style="width:75%">75%</div>
+			</div>
+			<p class = "smalltext" >Microsoft Office</p>
+			<div class="light-grey round-xlarge small">
+				<div class="container center round-xlarge grey" style="width:100%">100%</div>
+			</div>
+			<p class = "smalltext" >Adobe Photoshop</p>
+			<div class="light-grey round-xlarge small">
+				<div class="container center round-xlarge grey" style="width:90%">90%</div>
+			</div>
+			<p class = "smalltext" >Photography</p>
+			<div class="light-grey round-xlarge small">
+				<div class="container center round-xlarge grey" style="width:80%">80%</div>
+			</div>
+			<br>
+
+			<p><b>Languages</b></p>
+			<p class = "smalltext" >Filipino</p>
+			<div class="light-grey round-xlarge">
+				<div class="round-xlarge grey" style="height:24px;width:100%"></div>
+			</div>
+			<p class = "smalltext" >English</p>
+			<div class="light-grey round-xlarge">
+				<div class="round-xlarge grey" style="height:24px;width:70%"></div>
+			</div>
+		</div><!---/skills-->
+	</div> <!-- /.node -->
+</div>
+<div id = "section2">
+	<div id="node-2">
+	<div class="region region-content-top">
+		<h2 class = "title" id = "portfolio" >Portfolio</h2>
+		<div id="block-views-videos-block_1" class="block block-views region-odd odd region-count-1 count-1">
+			<div class="content">
+				<div class="view view-videos view-id-videos view-display-id-block_1 view-dom-id-2 view-videos view-id-videos view-display-id-block_1 view-dom-id-2 views-processed">
+					<div class="view-content">
+						<div class="views-row views-row-1 views-row-odd views-row-first">
+							<h2 class="minititle">Computer Programming</h2>												
+							<div class="content">
+								<div class="field field-type-emvideo field-field-video">
+									<div class="emvideo-modal emvideo-lightbox2">
+										<a href="https://github.com/JhonnieSavior/CC2-Project" 
+											title="Programming" 
+											rel="lightframe[video|width:501; height:416;]">
+											
+											<img src="Pictures/Programming.gif" alt="Programing" title="Programming" width="250" height="135">
+										</a>
+									</div>        
+								</div>
+								<p>Different programs that I made.</p>
+							</div>
+						</div>
+						<div class="views-row views-row-2 views-row-even">
+							<h2 class="minititle">Computing Fundamentals</h2>
+							<div class="content">
+								<div class="field field-type-emvideo field-field-video">
+										<div class="emvideo-modal emvideo-lightbox2">
+											<a href="https://github.com/JhonnieSavior/CC1-Project" 
+												title="Web Design" 
+												rel="lightframe[video|width:501; height:416;]">
+												<span></span>
+												<img src="Pictures/giphy (1).gif" alt="Web Design" title="Web Design" width="250" height="135">
+											</a>
+										</div>        
+								</div>
+								<p>Designed websites and different layout for specific purposes.</p>
+							</div>
+						</div>
+						<div class="views-row views-row-3 views-row-odd">
+							<h2 class="minititle">Human and Computer Interaction</h2>
+							<div class="content">
+								<div class="field field-type-emvideo field-field-video">
+									<div class="field-items">
+										<div class="field-item odd">
+											<div class="emvideo-modal emvideo-lightbox2">
+												<a href="https://github.com/JhonnieSavior/CC7-Project" 
+													title="Codes" 
+													rel="lightframe[video|width:501; height:416;]">
+													<img src="Pictures/Codes.gif" alt="Codes" title="Codes" width="250" height="135">
+												</a>
+											</div>
+										</div>
+									</div>
+								</div>
+								<p>Different Codes in different languages</p>
+							</div>
+						</div>
+						<div class="views-row views-row-4 views-row-even">
+							<h2 class="minititle">Animation</h2>
+							<div class="content">
+								<div class="field field-type-emvideo field-field-video">
+									<div class="emvideo-modal emvideo-lightbox2">
+										<a href="" 
+											title="Animation"
+											rel="lightframe[video|width:501; height:416;]">
+											<img src="Pictures/Animation.gif" alt="Animation" title="Animation" width="250" height="135">
+										</a>
+									</div>        
+								</div>
+								<p>Traditional drawings of character and background designs.</p>
+							</div>
+						</div>
+						<div class="views-row views-row-5 views-row-odd">
+							<h2 class="minititle">Photoshop</h2>
+							<div class="content">
+								<div class="field field-type-emvideo field-field-video">
+									<div class="emvideo-modal emvideo-lightbox2">
+										<a href="" 
+											title="Editing" 
+											rel="lightframe[video|width:501; height:416;]">
+											<span></span>
+											<img src="Pictures/Photoshop.gif" alt="Editing" title="Photoshop" width="250" height="135">
+										</a>
+									</div>        
+								</div>
+								<p>Editing pictures</p>
+							</div>
+						</div>
+						<div class="views-row views-row-6 views-row-even views-row-last">
+							<h2 class="minititle">Photoshoot</h2>
+							<div class="content">
+								<div class="field field-type-emvideo field-field-video">
+									<div class="emvideo-modal emvideo-lightbox2">
+										<a href="" 
+											title="Photoshoot" 
+											rel="lightframe[video|width:501; height:416;]">
+											<span></span>
+											<img src="Pictures/Photoshoot.gif" alt="Photoshoot" title="Photoshoot" width="250" height="135">
+										</a>
+									</div>        	
+								</div>
+								<p>Promoting Nature</p>
+							</div>
+						</div>
+					</div>
+				</div> <!-- /.view -->
+			</div>
+		</div> <!-- /.block -->
+	</div> <!-- /.region -->
+	</div>
+</div>
+
+<div id = "section3">
+<div id="node-3" >
+	<h2 class="title" >Contact Me</h2>
+	<p class = "par">Adress: Baguio City, Philippines</p>
+	<p class = "par">Phone #: 09091667748</p>
+	<p class = "par">Email: jhonnie.savior@gmail.com</p>
+</div>
+</div>
+<div id="footer-text">All rights reserved. Jhonnie Palaganas 2018. </div>
+
+</body>
+</html>
